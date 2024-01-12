@@ -13,7 +13,7 @@ WARN=-Wall
 CCFLAGS=$(DEBUG) $(OPT) $(WARN) $(PTHREAD) -pipe
 CPPFLAGS := -Iinclude -MMD -MP
 # LDFLAGS  := -Llib
-LDLIBS   := -lm
+LDLIBS   := -lm -lpthread
 
 .PHONY: all clean
 

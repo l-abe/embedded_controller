@@ -26,4 +26,4 @@ void  PIDController_Init(PIDController* pid);
 float PIDController_Update(PIDController* pid, float setpoint,
                            float measurement);
 
-#endif  // !PID_CONTROLLER_H
+#endif  // PID_CONTROLLER_H
